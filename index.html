@@ -164,70 +164,79 @@
         </div>
     </div>
     <section>
-        <div class="about-us">
-            <h3>About Us</h3>
-            <hr>
-            <p>Merak is a creative digital agency
-                <br> based in Malang, East Java. We are composed
-                <br> of creative designers and
-                <br> experienced developers.</p>
-        </div>
-        <div class="container crew-wrapper">
-            <div class="col-lg-6 crew-right">
-                <div class="col-lg-3 name-crew">
-                    <h3>Alif Sani</h3>
-                    <a href="">Person Detail</a>
+        <div class="crew-wrapper">
+            <div class="about-us">
+                <h3>About Us</h3>
+                <hr>
+                <p>Merak is a creative digital agency
+                    <br> based in Malang, East Java. We are composed
+                    <br> of creative designers and
+                    <br> experienced developers.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="column left">
+                        <img src="images/avatars/user-01.jpg" width="30%" alt="">
+                        <h2>Rezki Triandy</h2>
+                        <p>Full Stack Developer</p>
+                        <a href="">Detail Information</a>
+                    </div>
+                    <div class="column right">
+                        <img src="images/avatars/user-05.jpg" width="30%" alt="">
+                        <h2>Ryan Firmansyah</h2>
+                        <p>Full Stack Developer</p>
+                        <a href="">Detail Information</a>
+                    </div>
                 </div>
-                <div class="col-lg-3 img-crew">
-                    <img src="images/avatars/user-02.jpg" width="100%" alt="">
+                <p class="accordion">Show More</p>
+                <div class="panel">
+                    <div class="row">
+                        <div class="column left">
+                            <img src="images/avatars/user-02.jpg" width="30%" alt="">
+                            <h2>Sani</h2>
+                            <p>Full Stack Developer</p>
+                            <a href="">Detail Information</a>
+                        </div>
+                        <div class="column right">
+                            <img src="images/avatars/user-03.jpg" width="30%" alt="">
+                            <h2>Sani</h2>
+                            <p>Full Stack Developer</p>
+                            <a href="">Detail Information</a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="column left">
+                            <img src="images/avatars/user-04.jpg" width="30%" alt="">
+                            <h2>Sani</h2>
+                            <p>Full Stack Developer</p>
+                            <a href="">Detail Information</a>
+                        </div>
+                        <div class="column right">
+                            <img src="images/avatars/user-01.jpg" width="30%" alt="">
+                            <h2>Sani</h2>
+                            <p>Full Stack Developer</p>
+                            <a href="">Detail Information</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-6 crew-left">
-                <div class="col-lg-3 img-crew">
-                    <img src="images/avatars/user-03.jpg" width="100%" alt="">
-                </div>
-                <div class="col-lg-3 name-crew">
-                    <h3>Alif Sani</h3>
-                    <a href="">Person Detail</a>
-                </div>
-            </div>
-            <div class="col-lg-6 crew-right">
-                <div class="col-lg-3 name-crew">
-                    <h3>Alif Sani</h3>
-                    <a href="">Person Detail</a>
-                </div>
-                <div class="col-lg-3 img-crew">
-                    <img src="images/avatars/user-04.jpg" width="100%" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 crew-left">
-                <div class="col-lg-3 img-crew">
-                    <img src="images/avatars/user-01.jpg" width="100%" alt="">
-                </div>
-                <div class="col-lg-3 name-crew">
-                    <h3>Alif Sani</h3>
-                    <a href="">Person Detail</a>
-                </div>
-            </div>
-            <div class="col-lg-6 crew-right">
-                <div class="col-lg-3 name-crew">
-                    <h3>Alif Sani</h3>
-                    <a href="">Person Detail</a>
-                </div>
-                <div class="col-lg-3 img-crew">
-                    <img src="images/avatars/user-03.jpg" width="100%" alt="">
-                </div>
-            </div>
-            <div class="col-lg-6 crew-left">
-                <div class="col-lg-3 img-crew">
-                    <img src="images/avatars/user-05.jpg" width="100%" alt="">
-                </div>
-                <div class="col-lg-3 name-crew">
-                    <h3>Alif Sani</h3>
-                    <a href="">Person Detail</a>
-                </div>
-            </div>
-        </div>
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function () {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                        } else {
+                            panel.style.display = "block";
+                        }
+                    });
+                }
+            </script>
     </section>
     <footer>
         <div class="container foot">

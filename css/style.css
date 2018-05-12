@@ -83,7 +83,9 @@ header nav ul li a{
 }
 .carousel-about p{
     text-align: center;
-    /*color: #ffffff;*/
+    font-family: 'Arvo', serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 .carousel{
     background-color: #f2f2f2;
@@ -111,6 +113,8 @@ margin: auto;
 .product-about p{
     /*color: #ffffff;*/
     text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
 }
 .product-wrapper{
     padding-bottom: 40px;
@@ -153,17 +157,70 @@ margin: auto;
     width: 50%;
 }
 .about-us p{
-    /*color: #ffffff;*/
     text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 16px;
 }
-.crew-right{
-    display: inline;
+.crew-wrapper{
+    width: 100%;
 }
-.crew-wrapper div{
-    margin: 10px auto
+.accordion{
+    text-align: center;
+    padding: 10px 0;
 }
-.name-crew{
-    margin-left: 30px;
+.column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    margin: 10px 10px 10px 70px;
+}
+.right h2{
+    float: right;
+    width: 60%;
+    font-family: 'Lobster', cursive;
+}
+.right p{
+    float: right;
+    width: 60%;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+}
+.right a{
+    float: right;
+    width: 60%;
+    color: #111111;
+    font-family: 'Arvo', serif;
+}
+.right img{
+    float: left;
+}
+.left h2{
+    float: left;
+    width: 60%;
+    font-family: 'Lobster', cursive;
+}
+.left p{
+    float: left;
+    width: 60%;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+}
+.left a{
+    float: left;
+    width: 60%;
+    color: #111111;
+}
+.left img{
+    float: right;
+}
+.accordion{
+    cursor: pointer;
+}
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
 }
 footer{
     background-color: #1e1e1e;
@@ -185,9 +242,11 @@ footer{
     font-size: 18px;
     font-weight: 600;
     padding-left: 40px;
+    font-family: 'Merriweather', serif;
 }
 .footdiv p{
     padding-left: 40px;
+    font-family: 'Arvo', serif;
 }
 .tanda{
     padding-bottom: 20px;
@@ -197,3 +256,5 @@ footer{
     width: 100%;
     margin: 0;
 }
+
+
