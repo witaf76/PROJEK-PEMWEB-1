@@ -18,6 +18,11 @@ header{
     border-bottom: 3px solid #cccccc;
     z-index: 100;
 }
+.logo{
+    margin: 20px 0 20px 45px;
+    width: 40px;
+    float: left;
+}
 header nav ul{
     display: block;
     margin: 15px 10px;
@@ -71,6 +76,7 @@ header nav ul li a{
 }
 .carousel-about h3{
     text-align: center;
+    font-size: 32px;
     /*color: #ffffff;*/
     text-transform: capitalize;
     font-weight: 500;
@@ -83,9 +89,9 @@ header nav ul li a{
 }
 .carousel-about p{
     text-align: center;
-    font-family: 'Arvo', serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
 .carousel{
     background-color: #f2f2f2;
@@ -102,8 +108,12 @@ margin: auto;
     margin-top: 20px;
 }
 .product-about h3{
-    /*color: #ffffff;*/
     text-align: center;
+    font-size: 32px;
+    /*color: #ffffff;*/
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 40px;
 }
 .product-about hr{
     /*color: #ffffff;*/
@@ -111,10 +121,10 @@ margin: auto;
     width: 50%;
 }
 .product-about p{
-    /*color: #ffffff;*/
     text-align: center;
-    font-family: 'Arvo', serif;
-    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
 .product-wrapper{
     padding-bottom: 40px;
@@ -148,8 +158,12 @@ margin: auto;
     margin-top: 20px;
 }
 .about-us h3{
-    /*color: #ffffff;*/
     text-align: center;
+    font-size: 32px;
+    /*color: #ffffff;*/
+    text-transform: capitalize;
+    font-weight: 500;
+    line-height: 40px;
 }
 .about-us hr{
     /*color: #ffffff;*/
@@ -158,8 +172,9 @@ margin: auto;
 }
 .about-us p{
     text-align: center;
-    font-family: 'Arvo', serif;
-    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
 }
 .crew-wrapper{
     width: 100%;
@@ -255,6 +270,8 @@ footer{
     text-align: center;
     width: 100%;
     margin: 0;
+    font-family: 'Lobster', cursive;
+    font-size: 16px;
 }
 
 
